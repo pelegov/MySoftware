@@ -18,3 +18,4 @@ print("this is changed")
 
 def welcome():
     print("new screen")
+ main
