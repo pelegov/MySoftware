@@ -15,3 +15,6 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 print("this is changed")
+
+def welcome():
+    print("new screen")
