@@ -13,9 +13,9 @@ pipeline {
             steps {
                 script {
                     if (checkOs() == 'Windows') {
-                        bat 'python main.py'
+                        bat 'python TestForConflict.py'
                     } else {
-                        sh 'python main.py'
+                        sh 'python TestForConflict.py'
                     }
                 }
             }
